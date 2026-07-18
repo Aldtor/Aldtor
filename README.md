@@ -1,4 +1,4 @@
-# 👋 Hi there, I'm Aldtor (DragoSatya~)!
+# 👋 Hi there, I'm Aldtor (Satya~)!
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&pause=1000&color=FF66CC&center=true&vCenter=true&width=800&lines=Software+Engineer+%7C+Full+Stack+%26+Mobile;Android+Security+Researcher+%26+IoT+Developer;Creator+of+OFFLINE-PAY+%26+Sherlock+Android;The+rise+of+Kalki.+%E2%9C%A8" alt="Typing SVG" />
