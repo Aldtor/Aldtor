@@ -1,7 +1,7 @@
 # 👋 Hi there, I'm Aldtor!
 
 <p align="center">
-  <img src="./banner.svg?v=7" alt="Aldtor Profile Banner" width="100%">
+  <img src="./banner.svg?v=8" alt="Aldtor Profile Banner" width="100%">
 </p>
 
 <br/>
@@ -10,7 +10,7 @@
   <tr>
     <td width="36%" align="center" valign="top">
       <!-- Swinging Lanyard Badge -->
-      <img src="./lanyard.svg?v=7" alt="Aldtor Lanyard Badge" width="100%" />
+      <img src="./lanyard.svg?v=8" alt="Aldtor Lanyard Badge" width="100%" />
     </td>
     <td width="64%" valign="top">
       <h2>🌸 My Anime &amp; Web Creations</h2>
@@ -63,9 +63,9 @@
 ## 📊 GitHub Stats &amp; Performance
 
 <p align="center">
-  <img src="./stats.svg?v=7" width="31%" alt="Aldtor GitHub Stats" />
-  <img src="./langs.svg?v=7" width="31%" alt="Top Languages" />
-  <img src="./trophies.svg?v=7" width="31%" alt="Achievements &amp; Trophies" />
+  <img src="./stats.svg?v=8" width="31%" alt="Aldtor GitHub Stats" />
+  <img src="./langs.svg?v=8" width="31%" alt="Top Languages" />
+  <img src="./trophies.svg?v=8" width="31%" alt="Achievements &amp; Trophies" />
 </p>
 
 <br/>
@@ -73,7 +73,7 @@
 ## 📈 Contribution Graph 💕
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Aldtor&theme=tokyonight&bg_color=120824&color=ff66cc&line=ff66cc&point=00f2fe&area=true&hide_border=false" width="100%" alt="Contribution Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Aldtor&theme=tokyonight&bg_color=110722&color=ff66cc&line=ff66cc&point=00f2fe&area=true&hide_border=false" width="100%" alt="Contribution Graph" />
 </p>
 
 <br/>
