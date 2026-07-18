@@ -12,6 +12,7 @@ print(f"Loaded char_b64 len={len(char_b64)}, face_b64 len={len(face_b64)}")
 
 username = "Aldtor"
 display_name = "ALDTOR"
+raw_base = "https://raw.githubusercontent.com/Aldtor/Aldtor/main"
 
 # 1. banner.svg (Dark Mode)
 banner_svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 740" width="100%" height="auto">
@@ -175,7 +176,7 @@ banner_svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="ht
         <clipPath id="char-clip">
           <rect x="15" y="15" width="460" height="660" rx="18"/>
         </clipPath>
-        <image href="{char_b64}" x="15" y="15" width="460" height="660" preserveAspectRatio="xMidYMid slice" />
+        <image href="{char_b64}" xlink:href="{char_b64}" x="15" y="15" width="460" height="660" preserveAspectRatio="xMidYMid slice" />
         <rect x="15" y="15" width="460" height="660" rx="18" fill="rgba(10, 5, 24, 0.15)"/>
 
         <g>
@@ -196,7 +197,7 @@ banner_svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="ht
 with open(os.path.join(out_dir, "banner.svg"), "w", encoding="utf-8") as f:
     f.write(banner_svg_content)
 
-print("Updated banner.svg for Aldtor")
+print("Updated banner.svg with xlink:href")
 
 # 2. banner-light.svg (Light Mode)
 banner_light_svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 740" width="100%" height="auto">
@@ -353,7 +354,7 @@ banner_light_svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xli
         <clipPath id="char-clip-light">
           <rect x="15" y="15" width="460" height="660" rx="18"/>
         </clipPath>
-        <image href="{char_b64}" x="15" y="15" width="460" height="660" preserveAspectRatio="xMidYMid slice" />
+        <image href="{char_b64}" xlink:href="{char_b64}" x="15" y="15" width="460" height="660" preserveAspectRatio="xMidYMid slice" />
 
         <g>
           <line x1="0" y1="0" x2="490" y2="0" stroke="#6f42c1" stroke-width="4" filter="url(#glow-light)">
@@ -373,9 +374,9 @@ banner_light_svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xli
 with open(os.path.join(out_dir, "banner-light.svg"), "w", encoding="utf-8") as f:
     f.write(banner_light_svg_content)
 
-print("Updated banner-light.svg for Aldtor")
+print("Updated banner-light.svg with xlink:href")
 
-# 3. lanyard.svg (Swinging ID Badge with Pendulum Physics)
+# 3. lanyard.svg (Swinging ID Badge)
 lanyard_svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 450 680" width="100%" height="auto">
   <defs>
     <linearGradient id="strap-grad" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -440,7 +441,7 @@ lanyard_svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
         <clipPath id="avatar-clip">
           <circle cx="0" cy="0" r="58"/>
         </clipPath>
-        <image href="{face_b64}" x="-58" y="-58" width="116" height="116" clip-path="url(#avatar-clip)" preserveAspectRatio="xMidYMid slice"/>
+        <image href="{face_b64}" xlink:href="{face_b64}" x="-58" y="-58" width="116" height="116" clip-path="url(#avatar-clip)" preserveAspectRatio="xMidYMid slice"/>
       </g>
 
       <text x="150" y="232" class="badge-name" text-anchor="middle">{display_name}</text>
@@ -472,97 +473,16 @@ lanyard_svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
 with open(os.path.join(out_dir, "lanyard.svg"), "w", encoding="utf-8") as f:
     f.write(lanyard_svg_content)
 
-print("Updated lanyard.svg for Aldtor")
+print("Updated lanyard.svg with xlink:href")
 
-# 4. stats.svg
-stats_svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 220" width="100%" height="auto">
-  <defs>
-    <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#140b29"/>
-      <stop offset="100%" stop-color="#0a0518"/>
-    </linearGradient>
-    <linearGradient id="ring-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ff2a85"/>
-      <stop offset="100%" stop-color="#00f2fe"/>
-    </linearGradient>
-    <filter id="glow-stat">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-  </defs>
-
-  <style>
-    .card-title {{ font-family: 'Segoe UI', sans-serif; font-size: 18px; font-weight: 800; fill: #ff4da6; letter-spacing: 1px; }}
-    .stat-label {{ font-family: 'Segoe UI', sans-serif; font-size: 13px; fill: #a090c0; font-weight: 600; }}
-    .stat-val {{ font-family: 'Fira Code', monospace; font-size: 15px; fill: #ffffff; font-weight: 700; }}
-    .rank-text {{ font-family: 'Segoe UI', sans-serif; font-size: 32px; font-weight: 900; fill: #ffffff; }}
-
-    @keyframes ringSpin {{
-      0% {{ stroke-dashoffset: 280; }}
-      50% {{ stroke-dashoffset: 40; }}
-      100% {{ stroke-dashoffset: 280; }}
-    }}
-    .progress-ring {{
-      stroke-dasharray: 280;
-      animation: ringSpin 4s ease-in-out infinite;
-    }}
-  </style>
-
-  <rect width="480" height="220" rx="16" fill="url(#card-bg)" stroke="rgba(255,42,133,0.3)" stroke-width="1.5"/>
-
-  <text x="30" y="40" class="card-title">⚡ {display_name}'S GITHUB STATS</text>
-  <line x1="30" y1="52" x2="450" y2="52" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
-
-  <g transform="translate(85, 135)">
-    <circle cx="0" cy="0" r="45" fill="none" stroke="#251545" stroke-width="8"/>
-    <circle cx="0" cy="0" r="45" fill="none" stroke="url(#ring-grad)" stroke-width="8" stroke-linecap="round" class="progress-ring" transform="rotate(-90)"/>
-    <text x="0" y="10" class="rank-text" text-anchor="middle" filter="url(#glow-stat)">S+</text>
-  </g>
-
-  <g transform="translate(180, 80)">
-    <g transform="translate(0, 0)">
-      <text class="stat-label">Total Commits (2026):</text>
-      <text x="250" class="stat-val" text-anchor="end">1,480+</text>
-      <rect y="10" width="250" height="6" rx="3" fill="#251545"/>
-      <rect y="10" width="210" height="6" rx="3" fill="#ff2a85"/>
-    </g>
-    <g transform="translate(0, 32)">
-      <text class="stat-label">Pull Requests:</text>
-      <text x="250" class="stat-val" text-anchor="end">142</text>
-      <rect y="10" width="250" height="6" rx="3" fill="#251545"/>
-      <rect y="10" width="185" height="6" rx="3" fill="#9b51e0"/>
-    </g>
-    <g transform="translate(0, 64)">
-      <text class="stat-label">Issues Closed:</text>
-      <text x="250" class="stat-val" text-anchor="end">88</text>
-      <rect y="10" width="250" height="6" rx="3" fill="#251545"/>
-      <rect y="10" width="150" height="6" rx="3" fill="#00f2fe"/>
-    </g>
-    <g transform="translate(0, 96)">
-      <text class="stat-label">Total Stars Earned:</text>
-      <text x="250" class="stat-val" text-anchor="end">320+</text>
-      <rect y="10" width="250" height="6" rx="3" fill="#251545"/>
-      <rect y="10" width="230" height="6" rx="3" fill="#38ef7d"/>
-    </g>
-  </g>
-</svg>'''
-
-with open(os.path.join(out_dir, "stats.svg"), "w", encoding="utf-8") as f:
-    f.write(stats_svg_content)
-
-print("Updated stats.svg for Aldtor")
-
-# 7. README.md
+# 7. README.md (Using direct raw GitHub URLs for picture tags to ensure GitHub Camo proxy resolves them perfectly)
 readme_md_content = f'''# 👋 Hi there, I'm {username}!
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=1">
-    <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=1">
-    <img alt="{username} Profile Banner" src="./banner.svg?v=1" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="{raw_base}/banner.svg?v=2">
+    <source media="(prefers-color-scheme: light)" srcset="{raw_base}/banner-light.svg?v=2">
+    <img alt="{username} Profile Banner" src="{raw_base}/banner.svg?v=2" width="100%">
   </picture>
 </p>
 
@@ -570,10 +490,10 @@ readme_md_content = f'''# 👋 Hi there, I'm {username}!
 
 <table border="0">
   <tr>
-    <td width="40%" align="center" valign="top">
-      <img src="./lanyard.svg?v=1" alt="{username} Lanyard Badge" width="100%" opacity="1" />
+    <td width="38%" align="center" valign="top">
+      <img src="{raw_base}/lanyard.svg?v=2" alt="{username} Lanyard Badge" width="100%" />
     </td>
-    <td width="60%" valign="top">
+    <td width="62%" valign="top">
       <h2>✨ About Me</h2>
       <p>
         I'm a passionate <b>Full Stack Developer</b> crafting sleek, high-performance web applications and interactive digital experiences.
@@ -601,9 +521,9 @@ readme_md_content = f'''# 👋 Hi there, I'm {username}!
 ## 📊 Performance & Statistics
 
 <p align="center">
-  <img src="./stats.svg?v=1" width="31%" alt="Stats Card" />
-  <img src="./langs.svg?v=1" width="31%" alt="Languages Card" />
-  <img src="./trophies.svg?v=1" width="31%" alt="Trophies Card" />
+  <img src="{raw_base}/stats.svg?v=2" width="31%" alt="Stats Card" />
+  <img src="{raw_base}/langs.svg?v=2" width="31%" alt="Languages Card" />
+  <img src="{raw_base}/trophies.svg?v=2" width="31%" alt="Trophies Card" />
 </p>
 
 <br/>
@@ -638,4 +558,4 @@ readme_md_content = f'''# 👋 Hi there, I'm {username}!
 with open(os.path.join(out_dir, "README.md"), "w", encoding="utf-8") as f:
     f.write(readme_md_content)
 
-print("Updated README.md for Aldtor")
+print("Updated README.md with raw GitHub URLs")
