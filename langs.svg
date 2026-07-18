@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 220" width="100%" height="auto">
+  <defs>
+    <linearGradient id="card-bg-lang" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#140b29"/>
+      <stop offset="100%" stop-color="#0a0518"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .card-title { font-family: 'Segoe UI', sans-serif; font-size: 18px; font-weight: 800; fill: #00f2fe; letter-spacing: 1px; }
+    .lang-name { font-family: 'Segoe UI', sans-serif; font-size: 13px; font-weight: 700; fill: #ffffff; }
+    .lang-pct { font-family: 'Fira Code', monospace; font-size: 13px; fill: #a090c0; }
+  </style>
+
+  <rect width="480" height="220" rx="16" fill="url(#card-bg-lang)" stroke="rgba(0,242,254,0.3)" stroke-width="1.5"/>
+
+  <text x="30" y="40" class="card-title">💻 TOP LANGUAGES &amp; STACK</text>
+  <line x1="30" y1="52" x2="450" y2="52" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+
+  <g transform="translate(30, 75)">
+    <g transform="translate(0, 0)">
+      <circle cx="6" cy="-4" r="5" fill="#f7df1e"/>
+      <text x="20" y="0" class="lang-name">JavaScript</text>
+      <text x="420" y="0" class="lang-pct" text-anchor="end">42%</text>
+      <rect y="8" width="420" height="7" rx="3.5" fill="#251545"/>
+      <rect y="8" width="176" height="7" rx="3.5" fill="#f7df1e"/>
+    </g>
+    <g transform="translate(0, 30)">
+      <circle cx="6" cy="-4" r="5" fill="#3178c6"/>
+      <text x="20" y="0" class="lang-name">TypeScript</text>
+      <text x="420" y="0" class="lang-pct" text-anchor="end">28%</text>
+      <rect y="8" width="420" height="7" rx="3.5" fill="#251545"/>
+      <rect y="8" width="117" height="7" rx="3.5" fill="#3178c6"/>
+    </g>
+    <g transform="translate(0, 60)">
+      <circle cx="6" cy="-4" r="5" fill="#61dafb"/>
+      <text x="20" y="0" class="lang-name">React &amp; HTML/CSS</text>
+      <text x="420" y="0" class="lang-pct" text-anchor="end">18%</text>
+      <rect y="8" width="420" height="7" rx="3.5" fill="#251545"/>
+      <rect y="8" width="75" height="7" rx="3.5" fill="#61dafb"/>
+    </g>
+    <g transform="translate(0, 90)">
+      <circle cx="6" cy="-4" r="5" fill="#3776ab"/>
+      <text x="20" y="0" class="lang-name">Python</text>
+      <text x="420" y="0" class="lang-pct" text-anchor="end">12%</text>
+      <rect y="8" width="420" height="7" rx="3.5" fill="#251545"/>
+      <rect y="8" width="52" height="7" rx="3.5" fill="#3776ab"/>
+    </g>
+  </g>
+</svg>
