@@ -1,18 +1,18 @@
 # 👋 Hi there, I'm Aldtor!
 
 <p align="center">
-  <img src="./banner.svg?v=6" alt="Aldtor Profile Banner" width="100%">
+  <img src="./banner.svg?v=7" alt="Aldtor Profile Banner" width="100%">
 </p>
 
 <br/>
 
 <table border="0">
   <tr>
-    <td width="35%" align="center" valign="top">
+    <td width="36%" align="center" valign="top">
       <!-- Swinging Lanyard Badge -->
-      <img src="./lanyard.svg?v=6" alt="Aldtor Lanyard Badge" width="100%" />
+      <img src="./lanyard.svg?v=7" alt="Aldtor Lanyard Badge" width="100%" />
     </td>
-    <td width="65%" valign="top">
+    <td width="64%" valign="top">
       <h2>🌸 My Anime &amp; Web Creations</h2>
       <table width="100%">
         <thead>
@@ -63,9 +63,9 @@
 ## 📊 GitHub Stats &amp; Performance
 
 <p align="center">
-  <img src="./stats.svg?v=6" width="31%" alt="Aldtor GitHub Stats" />
-  <img src="./langs.svg?v=6" width="31%" alt="Top Languages" />
-  <img src="./trophies.svg?v=6" width="31%" alt="Achievements &amp; Trophies" />
+  <img src="./stats.svg?v=7" width="31%" alt="Aldtor GitHub Stats" />
+  <img src="./langs.svg?v=7" width="31%" alt="Top Languages" />
+  <img src="./trophies.svg?v=7" width="31%" alt="Achievements &amp; Trophies" />
 </p>
 
 <br/>

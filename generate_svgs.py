@@ -13,14 +13,16 @@ print(f"Loaded char_b64 len={len(char_b64)}, face_b64 len={len(face_b64)}")
 username = "Aldtor"
 display_name = "Aldtor"
 
-# 1. banner.svg (Clean Transparent Character, No White Box Background!)
-banner_svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 740" width="100%" height="auto">
+# ==============================================================================
+# 1. banner.svg (Pixel-Perfect Meghamittal0920 Master Banner replica)
+# ==============================================================================
+banner_svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 720" width="100%" height="auto">
   <defs>
     <!-- Background Gradient -->
     <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#120824" />
-      <stop offset="50%" stop-color="#1b0e36" />
-      <stop offset="100%" stop-color="#0b0417" />
+      <stop offset="0%" stop-color="#0f071d" />
+      <stop offset="50%" stop-color="#180b30" />
+      <stop offset="100%" stop-color="#090314" />
     </linearGradient>
 
     <!-- Animated Glowing Script Name Gradient -->
@@ -48,7 +50,7 @@ banner_svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="ht
     </filter>
 
     <clipPath id="banner-clip">
-      <rect x="0" y="0" width="1280" height="740" rx="20" ry="20" />
+      <rect x="0" y="0" width="1280" height="720" rx="20" ry="20" />
     </clipPath>
   </defs>
 
@@ -72,10 +74,10 @@ banner_svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="ht
 
   <g clip-path="url(#banner-clip)">
     <!-- Base Background -->
-    <rect width="1280" height="740" fill="url(#bg-grad)" stroke="#9b51e0" stroke-width="2" rx="20"/>
+    <rect width="1280" height="720" fill="url(#bg-grad)" stroke="#9b51e0" stroke-width="2" rx="20"/>
 
-    <!-- Ambient Orbs -->
-    <circle cx="200" cy="180" r="220" fill="#9b51e0" opacity="0.12" filter="url(#glow-filter)"/>
+    <!-- Ambient Glow Orbs -->
+    <circle cx="180" cy="180" r="220" fill="#9b51e0" opacity="0.12" filter="url(#glow-filter)"/>
     <circle cx="1100" cy="550" r="250" fill="#ff2a85" opacity="0.1" filter="url(#glow-filter)"/>
 
     <!-- LEFT COLUMN: Details -->
@@ -153,79 +155,79 @@ banner_svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="ht
     </g>
 
     <!-- RIGHT COLUMN: Dreams.jsx Snippet + Neon Box + Transparent Character Art -->
-    <g transform="translate(560, 35)">
+    <g transform="translate(670, 35)">
       <!-- Code Editor snippet box (dreams.jsx) -->
       <g transform="translate(0, 0)">
-        <rect width="320" height="210" rx="14" fill="#0d061c" stroke="rgba(181, 95, 230, 0.5)" stroke-width="1.5"/>
-        <path d="M0 12 Q0 0 12 0 H308 Q320 0 320 12 V30 H0 Z" fill="#180c33"/>
-        <circle cx="18" cy="15" r="4.5" fill="#ff5f56"/>
-        <circle cx="32" cy="15" r="4.5" fill="#ffbd2e"/>
-        <circle cx="46" cy="15" r="4.5" fill="#27c93f"/>
-        <text x="160" y="19" font-family="'Fira Code', monospace" font-size="11" fill="#a090c0" text-anchor="middle">dreams.jsx</text>
+        <rect width="280" height="195" rx="14" fill="#0d061c" stroke="rgba(181, 95, 230, 0.5)" stroke-width="1.5"/>
+        <path d="M0 12 Q0 0 12 0 H268 Q280 0 280 12 V28 H0 Z" fill="#180c33"/>
+        <circle cx="16" cy="14" r="4" fill="#ff5f56"/>
+        <circle cx="28" cy="14" r="4" fill="#ffbd2e"/>
+        <circle cx="40" cy="14" r="4" fill="#27c93f"/>
+        <text x="140" y="18" font-family="'Fira Code', monospace" font-size="11" fill="#a090c0" text-anchor="middle">dreams.jsx</text>
 
-        <g transform="translate(18, 52)">
+        <g transform="translate(16, 48)">
           <text y="0" class="code-editor-text"><tspan fill="#ff79c6">function</tspan> <tspan fill="#50fa7b">buildDreams</tspan>() &#123;</text>
-          <text y="20" class="code-editor-text">&#160;&#160;<tspan fill="#ff79c6">return</tspan> (</text>
-          <text y="40" class="code-editor-text">&#160;&#160;&#160;&#160;&lt;<tspan fill="#8be9fd">div</tspan> className=<tspan fill="#f1fa8c">"dreams"</tspan>&gt;</text>
-          <text y="60" class="code-editor-text">&#160;&#160;&#160;&#160;&#160;&#160;&lt;<tspan fill="#ffb86c">Code</tspan> /&gt;</text>
-          <text y="80" class="code-editor-text">&#160;&#160;&#160;&#160;&#160;&#160;&lt;<tspan fill="#ffb86c">Coffee</tspan> /&gt;</text>
-          <text y="100" class="code-editor-text">&#160;&#160;&#160;&#160;&#160;&#160;&lt;<tspan fill="#ffb86c">Repeat</tspan> /&gt;</text>
-          <text y="120" class="code-editor-text">&#160;&#160;&#160;&#160;&lt;/<tspan fill="#8be9fd">div</tspan>&gt;</text>
-          <text y="140" class="code-editor-text">&#160;&#160;);</text>
-          <text y="160" class="code-editor-text">&#125; <tspan fill="#6272a4">// export default</tspan></text>
+          <text y="18" class="code-editor-text">&#160;&#160;<tspan fill="#ff79c6">return</tspan> (</text>
+          <text y="36" class="code-editor-text">&#160;&#160;&#160;&#160;&lt;<tspan fill="#8be9fd">div</tspan> className=<tspan fill="#f1fa8c">"dreams"</tspan>&gt;</text>
+          <text y="54" class="code-editor-text">&#160;&#160;&#160;&#160;&#160;&#160;&lt;<tspan fill="#ffb86c">Code</tspan> /&gt;</text>
+          <text y="72" class="code-editor-text">&#160;&#160;&#160;&#160;&#160;&#160;&lt;<tspan fill="#ffb86c">Coffee</tspan> /&gt;</text>
+          <text y="90" class="code-editor-text">&#160;&#160;&#160;&#160;&#160;&#160;&lt;<tspan fill="#ffb86c">Repeat</tspan> /&gt;</text>
+          <text y="108" class="code-editor-text">&#160;&#160;&#160;&#160;&lt;/<tspan fill="#8be9fd">div</tspan>&gt;</text>
+          <text y="126" class="code-editor-text">&#160;&#160;);</text>
+          <text y="144" class="code-editor-text">&#125; <tspan fill="#6272a4">// export default</tspan></text>
         </g>
       </g>
 
       <!-- Neon Tagline Box Top Right -->
-      <g transform="translate(340, 0)">
-        <rect width="320" height="85" rx="14" fill="rgba(255, 0, 127, 0.08)" stroke="#ff007f" stroke-width="2"/>
-        <text x="160" y="38" font-family="'Fira Code', monospace" font-weight="900" font-size="22" fill="#ff66cc" text-anchor="middle" letter-spacing="2">&lt;/&gt;</text>
-        <text x="160" y="60" font-family="'Segoe UI', sans-serif" font-weight="800" font-size="14" fill="#ffffff" text-anchor="middle" letter-spacing="2">KEEP CODING</text>
-        <text x="160" y="76" font-family="'Segoe UI', sans-serif" font-weight="800" font-size="14" fill="#ff66cc" text-anchor="middle" letter-spacing="2">KEEP GROWING</text>
+      <g transform="translate(300, 0)">
+        <rect width="260" height="85" rx="14" fill="rgba(255, 0, 127, 0.08)" stroke="#ff007f" stroke-width="2"/>
+        <text x="130" y="36" font-family="'Fira Code', monospace" font-weight="900" font-size="20" fill="#ff66cc" text-anchor="middle" letter-spacing="2">&lt;/&gt;</text>
+        <text x="130" y="56" font-family="'Segoe UI', sans-serif" font-weight="800" font-size="13" fill="#ffffff" text-anchor="middle" letter-spacing="2">KEEP CODING</text>
+        <text x="130" y="72" font-family="'Segoe UI', sans-serif" font-weight="800" font-size="13" fill="#ff66cc" text-anchor="middle" letter-spacing="2">KEEP GROWING</text>
       </g>
 
-      <!-- Transparent Character Image Overlay (No White Background Box!) -->
-      <g transform="translate(200, 100)">
-        <image href="{char_b64}" xlink:href="{char_b64}" x="0" y="0" width="470" height="570" preserveAspectRatio="xMidYMid slice" />
+      <!-- Transparent Character Image Overlay (Placed seamlessly on right side!) -->
+      <g transform="translate(140, 120)">
+        <image href="{char_b64}" xlink:href="{char_b64}" x="0" y="0" width="420" height="540" preserveAspectRatio="xMidYMid slice" />
 
         <!-- Continuous Full-Width Horizontal Scanner Line Sweeping Top to Bottom -->
         <g>
-          <line x1="0" y1="0" x2="470" y2="0" stroke="#00f2fe" stroke-width="4" filter="url(#glow-filter)">
-            <animateTransform attributeName="transform" type="translate" from="0, 0" to="0, 570" dur="3.5s" repeatCount="indefinite"/>
+          <line x1="0" y1="0" x2="420" y2="0" stroke="#00f2fe" stroke-width="4" filter="url(#glow-filter)">
+            <animateTransform attributeName="transform" type="translate" from="0, 0" to="0, 540" dur="3.5s" repeatCount="indefinite"/>
           </line>
-          <rect x="0" y="0" width="470" height="40" fill="url(#scan-line-grad)">
-            <animateTransform attributeName="transform" type="translate" from="0, -40" to="0, 530" dur="3.5s" repeatCount="indefinite"/>
+          <rect x="0" y="0" width="420" height="40" fill="url(#scan-line-grad)">
+            <animateTransform attributeName="transform" type="translate" from="0, -40" to="0, 500" dur="3.5s" repeatCount="indefinite"/>
           </rect>
         </g>
       </g>
     </g>
 
     <!-- Outer Border -->
-    <rect width="1280" height="740" rx="20" ry="20" fill="none" stroke="#9b51e0" stroke-width="3" opacity="0.8"/>
+    <rect width="1280" height="720" rx="20" ry="20" fill="none" stroke="#9b51e0" stroke-width="3" opacity="0.8"/>
   </g>
 </svg>'''
 
 with open(os.path.join(out_dir, "banner.svg"), "w", encoding="utf-8") as f:
     f.write(banner_svg_content)
 
-print("Created transparent banner.svg")
+print("Created ultra-polished banner.svg")
 
-# 2. README.md (With user's real Email & LinkedIn links)
+# 2. README.md (Matching Meghamittal0920 screenshots 1-5 100%)
 readme_md_content = f'''# 👋 Hi there, I'm {username}!
 
 <p align="center">
-  <img src="./banner.svg?v=6" alt="Aldtor Profile Banner" width="100%">
+  <img src="./banner.svg?v=7" alt="Aldtor Profile Banner" width="100%">
 </p>
 
 <br/>
 
 <table border="0">
   <tr>
-    <td width="35%" align="center" valign="top">
+    <td width="36%" align="center" valign="top">
       <!-- Swinging Lanyard Badge -->
-      <img src="./lanyard.svg?v=6" alt="Aldtor Lanyard Badge" width="100%" />
+      <img src="./lanyard.svg?v=7" alt="Aldtor Lanyard Badge" width="100%" />
     </td>
-    <td width="65%" valign="top">
+    <td width="64%" valign="top">
       <h2>🌸 My Anime &amp; Web Creations</h2>
       <table width="100%">
         <thead>
@@ -276,9 +278,9 @@ readme_md_content = f'''# 👋 Hi there, I'm {username}!
 ## 📊 GitHub Stats &amp; Performance
 
 <p align="center">
-  <img src="./stats.svg?v=6" width="31%" alt="Aldtor GitHub Stats" />
-  <img src="./langs.svg?v=6" width="31%" alt="Top Languages" />
-  <img src="./trophies.svg?v=6" width="31%" alt="Achievements &amp; Trophies" />
+  <img src="./stats.svg?v=7" width="31%" alt="Aldtor GitHub Stats" />
+  <img src="./langs.svg?v=7" width="31%" alt="Top Languages" />
+  <img src="./trophies.svg?v=7" width="31%" alt="Achievements &amp; Trophies" />
 </p>
 
 <br/>
@@ -327,4 +329,4 @@ readme_md_content = f'''# 👋 Hi there, I'm {username}!
 with open(os.path.join(out_dir, "README.md"), "w", encoding="utf-8") as f:
     f.write(readme_md_content)
 
-print("Updated README.md with real email & LinkedIn!")
+print("Updated README.md v=7!")
