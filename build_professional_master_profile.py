@@ -219,11 +219,11 @@ with open(os.path.join(out_dir, "banner.svg"), "w", encoding="utf-8") as f:
 readme_md_content = f'''# 👋 Hi there, I'm {username} ({display_name})!
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&pause=1000&color=FF66CC&center=true&vCenter=true&width=800&lines=Software+Engineer+%7C+Full+Stack+%26+Mobile;Android+Security+Researcher+%26+IoT+Developer;Creator+of+OFFLINE-PAY+%26+Sherlock+Android;The+rise+of+Kalki.+%E2%9C%A8" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&pause=1000&color=FF66cc&center=true&vCenter=true&width=800&lines=Software+Engineer+%7C+Full+Stack+%26+Mobile;Android+Security+Researcher+%26+IoT+Developer;Creator+of+OFFLINE-PAY+%26+Sherlock+Android;The+rise+of+Kalki.+%E2%9C%A8" alt="Typing SVG" />
 </p>
 
 <p align="center">
-  <img src="./banner.svg?v=13" alt="Aldtor Profile Banner" width="100%">
+  <img src="./banner.svg?v=14" alt="Aldtor Profile Banner" width="100%">
 </p>
 
 <br/>
@@ -232,7 +232,7 @@ readme_md_content = f'''# 👋 Hi there, I'm {username} ({display_name})!
   <tr>
     <td width="35%" align="center" valign="top">
       <!-- Swinging Lanyard Badge -->
-      <img src="./lanyard.svg?v=13" alt="Aldtor Lanyard Badge" width="100%" />
+      <img src="./lanyard.svg?v=14" alt="Aldtor Lanyard Badge" width="100%" />
     </td>
     <td width="65%" valign="top">
       <h2>🚀 Featured Repositories &amp; Core Projects</h2>
@@ -307,9 +307,9 @@ readme_md_content = f'''# 👋 Hi there, I'm {username} ({display_name})!
 ## 📊 GitHub Stats &amp; Performance
 
 <p align="center">
-  <img src="./stats.svg?v=13" width="31%" alt="Aldtor GitHub Stats" />
-  <img src="./langs.svg?v=13" width="31%" alt="Top Languages" />
-  <img src="./trophies.svg?v=13" width="31%" alt="Achievements &amp; Trophies" />
+  <img src="./stats.svg?v=14" width="31%" alt="Aldtor GitHub Stats" />
+  <img src="./langs.svg?v=14" width="31%" alt="Top Languages" />
+  <img src="./trophies.svg?v=14" width="31%" alt="Achievements &amp; Trophies" />
 </p>
 
 <br/>
