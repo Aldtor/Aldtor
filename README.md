@@ -1,7 +1,7 @@
 # 👋 Hi there, I'm Aldtor (DragoSatya~)!
 
 <p align="center">
-  <img src="./banner.svg?v=11" alt="Aldtor Profile Banner" width="100%">
+  <img src="./banner.svg?v=12" alt="Aldtor Profile Banner" width="100%">
 </p>
 
 <br/>
@@ -10,7 +10,7 @@
   <tr>
     <td width="35%" align="center" valign="top">
       <!-- Swinging Lanyard Badge -->
-      <img src="./lanyard.svg?v=11" alt="Aldtor Lanyard Badge" width="100%" />
+      <img src="./lanyard.svg?v=12" alt="Aldtor Lanyard Badge" width="100%" />
     </td>
     <td width="65%" valign="top">
       <h2>🚀 Featured Repositories &amp; Projects</h2>
@@ -63,9 +63,9 @@
 ## 📊 GitHub Stats &amp; Performance
 
 <p align="center">
-  <img src="./stats.svg?v=11" width="31%" alt="Aldtor GitHub Stats" />
-  <img src="./langs.svg?v=11" width="31%" alt="Top Languages" />
-  <img src="./trophies.svg?v=11" width="31%" alt="Achievements &amp; Trophies" />
+  <img src="./stats.svg?v=12" width="31%" alt="Aldtor GitHub Stats" />
+  <img src="./langs.svg?v=12" width="31%" alt="Top Languages" />
+  <img src="./trophies.svg?v=12" width="31%" alt="Achievements &amp; Trophies" />
 </p>
 
 <br/>

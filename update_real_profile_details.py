@@ -12,9 +12,8 @@ print(f"Loaded char_b64 len={len(char_b64)}, face_b64 len={len(face_b64)}")
 
 username = "Aldtor"
 display_name = "DragoSatya~"
-tagline = "The rise of Kalki."
 
-# 1. banner.svg (Real Bio & Tagline: DragoSatya~ | The rise of Kalki.)
+# 1. banner.svg (Full Width 1280px Laser Hologram Scanner Sweeping Top to Bottom!)
 banner_svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 740" width="100%" height="auto">
   <defs>
     <!-- Background Gradient -->
@@ -37,12 +36,14 @@ banner_svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="ht
       </stop>
     </linearGradient>
 
+    <!-- Full Banner Hologram Scanner Beam Gradient -->
     <linearGradient id="scan-line-grad" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#ff00a0" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#00f2fe" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#00f2fe" stop-opacity="0.6"/>
       <stop offset="100%" stop-color="#ff00a0" stop-opacity="0"/>
     </linearGradient>
 
+    <!-- Glow Filter -->
     <filter id="glow-filter" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="6" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
@@ -75,12 +76,15 @@ banner_svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="ht
   </style>
 
   <g clip-path="url(#banner-clip)">
+    <!-- Base Background -->
     <rect width="1280" height="740" fill="url(#bg-grad)" stroke="#9b51e0" stroke-width="2" rx="22"/>
 
+    <!-- Ambient Glowing Orbs -->
     <circle cx="180" cy="180" r="220" fill="#9b51e0" opacity="0.14" filter="url(#glow-filter)"/>
     <circle cx="1100" cy="550" r="260" fill="#ff2a85" opacity="0.12" filter="url(#glow-filter)"/>
     <circle cx="640" cy="370" r="200" fill="#00f2fe" opacity="0.08" filter="url(#glow-filter)"/>
 
+    <!-- Floating Sparkles & Hearts -->
     <text x="680" y="310" font-size="20" fill="#ff66cc" opacity="0.8">✦</text>
     <text x="1200" y="190" font-size="18" fill="#00f2fe" opacity="0.7">✨</text>
     <text x="740" y="680" font-size="16" fill="#ff4da6" opacity="0.8">💕</text>
@@ -99,8 +103,11 @@ banner_svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="ht
         <text x="18" y="26" class="quote-box-text">"The rise of Kalki. ✨"</text>
       </g>
 
-      <!-- Tech I Know -->
-      <g transform="translate(0, 238)">
+      <!-- Horizontal Section Separator Line -->
+      <line x1="0" y1="225" x2="450" y2="225" stroke="rgba(255,102,204,0.25)" stroke-width="1.5"/>
+
+      <!-- Tech Stack -->
+      <g transform="translate(0, 245)">
         <text x="0" y="0" class="section-head">⚡ Tech Stack &amp; Tools</text>
         <g transform="translate(0, 15)">
           <g transform="translate(0,0)"><rect width="70" height="26" class="pill-bg"/><text x="35" y="17" class="pill-txt" text-anchor="middle">Python</text></g>
@@ -117,7 +124,7 @@ banner_svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="ht
       </g>
 
       <!-- About Me -->
-      <g transform="translate(0, 342)">
+      <g transform="translate(0, 348)">
         <text x="0" y="0" class="section-head">💖 About Me</text>
         <text x="0" y="24" class="about-line">📌 Building offline payment systems, mobile tools &amp; web experiences.</text>
         <text x="0" y="46" class="about-line">💡 Creator of OFFLINE-PAY &amp; Android diagnostic toolkits.</text>
@@ -125,7 +132,7 @@ banner_svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="ht
       </g>
 
       <!-- Stats Bar Row -->
-      <g transform="translate(0, 448)">
+      <g transform="translate(0, 452)">
         <rect width="450" height="65" rx="14" fill="rgba(15, 7, 30, 0.85)" stroke="rgba(255, 102, 204, 0.3)" stroke-width="1.5"/>
         
         <g transform="translate(35, 23)">
@@ -147,7 +154,7 @@ banner_svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="ht
       </g>
 
       <!-- Footer Bar -->
-      <g transform="translate(0, 538)">
+      <g transform="translate(0, 542)">
         <text x="0" y="0" font-family="'Fira Code', monospace" font-size="12" fill="#a090c0">🐱 github.com/Aldtor &#160;•&#160; 📧 aldtor.in@gmail.com &#160;•&#160; 🟢 open to collaborate</text>
         <text x="0" y="24" font-family="'Segoe UI', sans-serif" font-size="13" font-style="italic" fill="#ff66cc">"Code is my art, Logic is my superpower. 💕"</text>
       </g>
@@ -183,18 +190,22 @@ banner_svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="ht
       <text x="140" y="74" font-family="'Segoe UI', sans-serif" font-weight="800" font-size="13" fill="#ff66cc" text-anchor="middle" letter-spacing="2">KEEP GROWING</text>
     </g>
 
+    <!-- Character Image Overlay -->
     <g transform="translate(780, 150)">
       <image href="{char_b64}" xlink:href="{char_b64}" x="0" y="0" width="460" height="570" preserveAspectRatio="xMidYMin meet" />
-      <g>
-        <line x1="0" y1="0" x2="460" y2="0" stroke="#00f2fe" stroke-width="4" filter="url(#glow-filter)">
-          <animateTransform attributeName="transform" type="translate" from="0, 0" to="0, 570" dur="3.5s" repeatCount="indefinite"/>
-        </line>
-        <rect x="0" y="0" width="460" height="40" fill="url(#scan-line-grad)">
-          <animateTransform attributeName="transform" type="translate" from="0, -40" to="0, 530" dur="3.5s" repeatCount="indefinite"/>
-        </rect>
-      </g>
     </g>
 
+    <!-- Continuous FULL BANNER 1280px Horizontal Hologram Scanner Beam Sweeping Top to Bottom! -->
+    <g>
+      <line x1="0" y1="0" x2="1280" y2="0" stroke="#00f2fe" stroke-width="3.5" opacity="0.85" filter="url(#glow-filter)">
+        <animateTransform attributeName="transform" type="translate" from="0, 0" to="0, 740" dur="4s" repeatCount="indefinite"/>
+      </line>
+      <rect x="0" y="0" width="1280" height="45" fill="url(#scan-line-grad)">
+        <animateTransform attributeName="transform" type="translate" from="0, -45" to="0, 695" dur="4s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- Outer Border -->
     <rect width="1280" height="740" rx="22" ry="22" fill="none" stroke="#9b51e0" stroke-width="3" opacity="0.8"/>
   </g>
 </svg>'''
@@ -202,11 +213,11 @@ banner_svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="ht
 with open(os.path.join(out_dir, "banner.svg"), "w", encoding="utf-8") as f:
     f.write(banner_svg_content)
 
-# 2. README.md (With REAL Projects table featuring OFFLINE-PAY, sherlock-android, esp8266-toolkit, aldtor-satya, calc-rush!)
+# 2. README.md (Bump version query to v=12 for cache purge)
 readme_md_content = f'''# 👋 Hi there, I'm {username} ({display_name})!
 
 <p align="center">
-  <img src="./banner.svg?v=11" alt="Aldtor Profile Banner" width="100%">
+  <img src="./banner.svg?v=12" alt="Aldtor Profile Banner" width="100%">
 </p>
 
 <br/>
@@ -215,7 +226,7 @@ readme_md_content = f'''# 👋 Hi there, I'm {username} ({display_name})!
   <tr>
     <td width="35%" align="center" valign="top">
       <!-- Swinging Lanyard Badge -->
-      <img src="./lanyard.svg?v=11" alt="Aldtor Lanyard Badge" width="100%" />
+      <img src="./lanyard.svg?v=12" alt="Aldtor Lanyard Badge" width="100%" />
     </td>
     <td width="65%" valign="top">
       <h2>🚀 Featured Repositories &amp; Projects</h2>
@@ -268,9 +279,9 @@ readme_md_content = f'''# 👋 Hi there, I'm {username} ({display_name})!
 ## 📊 GitHub Stats &amp; Performance
 
 <p align="center">
-  <img src="./stats.svg?v=11" width="31%" alt="Aldtor GitHub Stats" />
-  <img src="./langs.svg?v=11" width="31%" alt="Top Languages" />
-  <img src="./trophies.svg?v=11" width="31%" alt="Achievements &amp; Trophies" />
+  <img src="./stats.svg?v=12" width="31%" alt="Aldtor GitHub Stats" />
+  <img src="./langs.svg?v=12" width="31%" alt="Top Languages" />
+  <img src="./trophies.svg?v=12" width="31%" alt="Achievements &amp; Trophies" />
 </p>
 
 <br/>
@@ -319,4 +330,4 @@ readme_md_content = f'''# 👋 Hi there, I'm {username} ({display_name})!
 with open(os.path.join(out_dir, "README.md"), "w", encoding="utf-8") as f:
     f.write(readme_md_content)
 
-print("Updated README.md v=11 with REAL projects!")
+print("Updated banner.svg with FULL 1280px width scanner beam & README v=12!")
