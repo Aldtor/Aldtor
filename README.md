@@ -1,66 +1,87 @@
 # 👋 Hi there, I'm Aldtor!
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=4">
-    <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=4">
-    <img alt="Aldtor Profile Banner" src="./banner.svg?v=4" width="100%">
-  </picture>
+  <img src="./banner.svg?v=5" alt="Aldtor Profile Banner" width="100%">
 </p>
 
 <br/>
 
 <table border="0">
   <tr>
-    <td width="38%" align="center" valign="top">
-      <img src="./lanyard.svg?v=4" alt="Aldtor Lanyard Badge" width="100%" />
+    <td width="35%" align="center" valign="top">
+      <!-- Swinging Lanyard Badge -->
+      <img src="./lanyard.svg?v=5" alt="Aldtor Lanyard Badge" width="100%" />
     </td>
-    <td width="62%" valign="top">
-      <h2>✨ About Me</h2>
-      <p>
-        I'm a passionate <b>Full Stack Developer</b> crafting sleek, high-performance web applications and interactive digital experiences.
-      </p>
-      <ul>
-        <li>🔭 <b>Building:</b> Next-gen web apps with React, TypeScript &amp; SVG animations</li>
-        <li>💻 <b>Core Tech:</b> JavaScript, TypeScript, React, Node.js, Python, SQL, Git</li>
-        <li>🌱 <b>Learning:</b> Advanced AI prompts, WebGL &amp; SVG physics modeling</li>
-        <li>⚡ <b>Fun Fact:</b> Powered by coffee, clean code &amp; continuous learning!</li>
-      </ul>
+    <td width="65%" valign="top">
+      <h2>🌸 My Anime &amp; Web Creations</h2>
+      <table width="100%">
+        <thead>
+          <tr>
+            <th align="left">Project</th>
+            <th align="center">💻 Tech</th>
+            <th align="center">★ Stars</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><b>⚡ Naruto — Sage Mode</b></td>
+            <td align="center"><code>HTML</code> <code>CSS</code> <code>JS</code></td>
+            <td align="center">25</td>
+          </tr>
+          <tr>
+            <td><b>⚔️ Zoro — King of Hell</b></td>
+            <td align="center"><code>HTML</code> <code>CSS</code> <code>JS</code></td>
+            <td align="center">14</td>
+          </tr>
+          <tr>
+            <td><b>🔥 Demon Slayer — Web App</b></td>
+            <td align="center"><code>HTML</code> <code>CSS</code> <code>JS</code></td>
+            <td align="center">12</td>
+          </tr>
+          <tr>
+            <td><b>👁️ JJK — Sukuna Domain</b></td>
+            <td align="center"><code>HTML</code> <code>CSS</code> <code>JS</code></td>
+            <td align="center">10</td>
+          </tr>
+          <tr>
+            <td><b>🌊 One Piece 3D Experience</b></td>
+            <td align="center"><code>TypeScript</code> <code>Three.js</code></td>
+            <td align="center">8</td>
+          </tr>
+        </tbody>
+      </table>
       <br/>
-      <h3>📫 Connect With Me</h3>
-      <p>
-        <a href="https://github.com/Aldtor"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-        <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+      <p align="center">
+        <i>"I don't watch anime, I code anime. 💕"</i>
       </p>
-      <br/>
-      <img src="https://komarev.com/ghpvc/?username=Aldtor&color=ff2a85&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
     </td>
   </tr>
 </table>
 
 <br/>
 
-## 📊 Performance & Statistics
+## 📊 GitHub Stats &amp; Graphs
 
 <p align="center">
-  <img src="./stats.svg?v=4" width="31%" alt="Stats Card" />
-  <img src="./langs.svg?v=4" width="31%" alt="Languages Card" />
-  <img src="./trophies.svg?v=4" width="31%" alt="Trophies Card" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Aldtor&show_icons=true&theme=tokyonight&title_color=ff66cc&icon_color=00f2fe&bg_color=120824&border_color=9b51e0&border_radius=12" width="48%" alt="Aldtor GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aldtor&layout=compact&theme=tokyonight&title_color=ff66cc&bg_color=120824&border_color=9b51e0&border_radius=12" width="48%" alt="Top Languages" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Aldtor&theme=tokyonight&background=120824&stroke=ff66cc&ring=ff66cc&fire=ff66cc&currStreakLabel=ff66cc&border=9b51e0&border_radius=12" width="97%" alt="GitHub Streak" />
 </p>
 
 <br/>
 
-## 🚀 Featured Projects
+## 📈 Contribution Graph 💕
 
-| Project | Description | Tech Stack | Link |
-| :--- | :--- | :--- | :---: |
-| **⚡ DreamCraft UI** | Interactive SVG & CSS animation components library | React, SVG, Tailwind | [View Code](https://github.com/Aldtor) |
-| **🌐 DevFlow Hub** | Developer workflow & task management web application | TypeScript, Node.js | [View Code](https://github.com/Aldtor) |
-| **🐍 Contribution Snake** | Custom colored snake animation generated via GitHub Actions | YAML, SVG, Canvas | [View Code](https://github.com/Aldtor/Aldtor) |
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Aldtor&theme=tokyonight&bg_color=120824&color=ff66cc&line=ff66cc&point=00f2fe&area=true&hide_border=false" width="100%" alt="Contribution Graph" />
+</p>
 
 <br/>
 
-## 🐍 Contribution Graph & Snake Game
+## 🐍 Watch the snake eat my contributions
 
 <p align="center">
   <picture>
@@ -70,8 +91,24 @@
   </picture>
 </p>
 
+<br/>
+
+## 🚩 Let's Connect
+
+<p align="center">
+  <a href="mailto:aldtor@vercel.app"><img src="https://img.shields.io/badge/M_EMAIL-ff66cc?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a> &#160;
+  <a href="https://github.com/Aldtor"><img src="https://img.shields.io/badge/GH_GITHUB-9b51e0?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a> &#160;
+  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LINKEDIN-00f2fe?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+</p>
+
+<br/>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Aldtor&color=ff66cc&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
+</p>
+
 <hr/>
 
 <p align="center">
-  <sub><i>Designed with ❤️ for Aldtor • Keep Coding, Keep Growing!</i></sub>
+  <sub><i>★ Always learning, always building. 💕</i></sub>
 </p>
