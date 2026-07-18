@@ -322,7 +322,7 @@ with open(os.path.join(out_dir, "lanyard.svg"), "w", encoding="utf-8") as f:
 readme_md_content = f'''# 👋 Hi there, I'm {username}!
 
 <p align="center">
-  <img src="./banner.svg?v=9" alt="Aldtor Profile Banner" width="100%">
+  <img src="./banner.svg?v=10" alt="Aldtor Profile Banner" width="100%">
 </p>
 
 <br/>
@@ -331,7 +331,7 @@ readme_md_content = f'''# 👋 Hi there, I'm {username}!
   <tr>
     <td width="36%" align="center" valign="top">
       <!-- Swinging Lanyard Badge -->
-      <img src="./lanyard.svg?v=9" alt="Aldtor Lanyard Badge" width="100%" />
+      <img src="./lanyard.svg?v=10" alt="Aldtor Lanyard Badge" width="100%" />
     </td>
     <td width="64%" valign="top">
       <h2>🌸 My Anime &amp; Web Creations</h2>
@@ -384,9 +384,9 @@ readme_md_content = f'''# 👋 Hi there, I'm {username}!
 ## 📊 GitHub Stats &amp; Performance
 
 <p align="center">
-  <img src="./stats.svg?v=9" width="31%" alt="Aldtor GitHub Stats" />
-  <img src="./langs.svg?v=9" width="31%" alt="Top Languages" />
-  <img src="./trophies.svg?v=9" width="31%" alt="Achievements &amp; Trophies" />
+  <img src="./stats.svg?v=10" width="31%" alt="Aldtor GitHub Stats" />
+  <img src="./langs.svg?v=10" width="31%" alt="Top Languages" />
+  <img src="./trophies.svg?v=10" width="31%" alt="Achievements &amp; Trophies" />
 </p>
 
 <br/>
