@@ -1,11 +1,11 @@
 # 👋 Hi there, I'm Aldtor (DragoSatya~)!
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&pause=1000&color=FF66cc&center=true&vCenter=true&width=800&lines=Software+Engineer+%7C+Full+Stack+%26+Mobile;Android+Security+Researcher+%26+IoT+Developer;Creator+of+OFFLINE-PAY+%26+Sherlock+Android;The+rise+of+Kalki.+%E2%9C%A8" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&pause=1000&color=FF66CC&center=true&vCenter=true&width=800&lines=Software+Engineer+%7C+Full+Stack+%26+Mobile;Android+Security+Researcher+%26+IoT+Developer;Creator+of+OFFLINE-PAY+%26+Sherlock+Android;The+rise+of+Kalki.+%E2%9C%A8" alt="Typing SVG" />
 </p>
 
 <p align="center">
-  <img src="./banner.svg?v=14" alt="Aldtor Profile Banner" width="100%">
+  <img src="./banner.svg?v=15" alt="Aldtor Profile Banner" width="100%">
 </p>
 
 <br/>
@@ -14,7 +14,7 @@
   <tr>
     <td width="35%" align="center" valign="top">
       <!-- Swinging Lanyard Badge -->
-      <img src="./lanyard.svg?v=14" alt="Aldtor Lanyard Badge" width="100%" />
+      <img src="./lanyard.svg?v=15" alt="Aldtor Lanyard Badge" width="100%" />
     </td>
     <td width="65%" valign="top">
       <h2>🚀 Featured Repositories &amp; Core Projects</h2>
@@ -64,34 +64,15 @@
 
 <br/>
 
-## 🛠️ Technical Skillset Matrix
+## 📊 GitHub Stats &amp; Graphs
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/> &#160;
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/> &#160;
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/> &#160;
-  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin"/> &#160;
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++"/> &#160;
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
+  <img src="./stats.svg?v=15" width="56%" alt="Aldtor GitHub Stats" />
+  <img src="./langs.svg?v=15" width="41%" alt="Top Languages" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/> &#160;
-  <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android"/> &#160;
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/> &#160;
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/> &#160;
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/> &#160;
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"/>
-</p>
-
-<br/>
-
-## 📊 GitHub Stats &amp; Performance
-
-<p align="center">
-  <img src="./stats.svg?v=14" width="31%" alt="Aldtor GitHub Stats" />
-  <img src="./langs.svg?v=14" width="31%" alt="Top Languages" />
-  <img src="./trophies.svg?v=14" width="31%" alt="Achievements &amp; Trophies" />
+  <img src="./streak.svg?v=15" width="98%" alt="GitHub Streak Stats" />
 </p>
 
 <br/>

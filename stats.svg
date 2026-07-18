@@ -1,74 +1,80 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 220" width="100%" height="auto">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 250" width="100%" height="auto">
   <defs>
     <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#140b29"/>
-      <stop offset="100%" stop-color="#0a0518"/>
+      <stop offset="0%" stop-color="#14092b" />
+      <stop offset="100%" stop-color="#0b0417" />
     </linearGradient>
-    <linearGradient id="ring-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ff2a85"/>
-      <stop offset="100%" stop-color="#00f2fe"/>
+
+    <linearGradient id="rank-ring" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff66cc" />
+      <stop offset="100%" stop-color="#00f2fe" />
     </linearGradient>
-    <filter id="glow-stat">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+
+    <filter id="glow-ring">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
   </defs>
 
   <style>
-    .card-title { font-family: 'Segoe UI', sans-serif; font-size: 18px; font-weight: 800; fill: #ff4da6; letter-spacing: 1px; }
-    .stat-label { font-family: 'Segoe UI', sans-serif; font-size: 13px; fill: #a090c0; font-weight: 600; }
-    .stat-val { font-family: 'Fira Code', monospace; font-size: 15px; fill: #ffffff; font-weight: 700; }
-    .rank-text { font-family: 'Segoe UI', sans-serif; font-size: 32px; font-weight: 900; fill: #ffffff; }
-
-    @keyframes ringSpin {
-      0% { stroke-dashoffset: 280; }
-      50% { stroke-dashoffset: 40; }
-      100% { stroke-dashoffset: 280; }
-    }
-    .progress-ring {
-      stroke-dasharray: 280;
-      animation: ringSpin 4s ease-in-out infinite;
-    }
+    .card-border { fill: url(#card-bg); stroke: #ff66cc; stroke-width: 1.5; rx: 18; }
+    .card-title { font-family: 'Segoe UI', sans-serif; font-size: 18px; font-weight: 800; fill: #ff66cc; }
+    .stat-label { font-family: 'Segoe UI', sans-serif; font-size: 14px; font-weight: 600; fill: #e2d5f8; }
+    .stat-val { font-family: 'Fira Code', monospace; font-size: 15px; font-weight: 800; fill: #00f2fe; text-anchor: end; }
+    .rank-letter { font-family: 'Segoe UI', sans-serif; font-size: 44px; font-weight: 900; fill: #ffffff; text-anchor: middle; }
+    .rank-sub { font-family: 'Fira Code', monospace; font-size: 11px; fill: #a090c0; text-anchor: middle; letter-spacing: 2px; }
   </style>
 
-  <rect width="480" height="220" rx="16" fill="url(#card-bg)" stroke="rgba(255,42,133,0.3)" stroke-width="1.5"/>
+  <rect width="560" height="250" class="card-border" />
 
-  <text x="30" y="40" class="card-title">⚡ ALDTOR'S GITHUB STATS</text>
-  <line x1="30" y1="52" x2="450" y2="52" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <!-- Title -->
+  <text x="25" y="38" class="card-title">🌸 DragoSatya~'s GitHub Stats</text>
 
-  <g transform="translate(85, 135)">
-    <circle cx="0" cy="0" r="45" fill="none" stroke="#251545" stroke-width="8"/>
-    <circle cx="0" cy="0" r="45" fill="none" stroke="url(#ring-grad)" stroke-width="8" stroke-linecap="round" class="progress-ring" transform="rotate(-90)"/>
-    <text x="0" y="10" class="rank-text" text-anchor="middle" filter="url(#glow-stat)">S+</text>
+  <!-- Left Stats List -->
+  <g transform="translate(25, 75)">
+    <!-- Star -->
+    <g transform="translate(0, 0)">
+      <text x="0" y="0" font-size="14" fill="#ffbd2e">★</text>
+      <text x="20" y="0" class="stat-label">Total Stars Earned:</text>
+      <text x="260" y="0" class="stat-val">50+</text>
+    </g>
+
+    <!-- Commits -->
+    <g transform="translate(0, 32)">
+      <text x="0" y="0" font-size="14" fill="#ff66cc">💻</text>
+      <text x="20" y="0" class="stat-label">Total Commits:</text>
+      <text x="260" y="0" class="stat-val">1,120+</text>
+    </g>
+
+    <!-- Repos -->
+    <g transform="translate(0, 64)">
+      <text x="0" y="0" font-size="14" fill="#00f2fe">📁</text>
+      <text x="20" y="0" class="stat-label">Public Repos:</text>
+      <text x="260" y="0" class="stat-val">36+</text>
+    </g>
+
+    <!-- Followers -->
+    <g transform="translate(0, 96)">
+      <text x="0" y="0" font-size="14" fill="#b55fe6">👥</text>
+      <text x="20" y="0" class="stat-label">Followers:</text>
+      <text x="260" y="0" class="stat-val">25+</text>
+    </g>
+
+    <!-- Real Apps Built -->
+    <g transform="translate(0, 128)">
+      <text x="0" y="0" font-size="14" fill="#00ffcc">⚡</text>
+      <text x="20" y="0" class="stat-label">Real Apps Built:</text>
+      <text x="260" y="0" class="stat-val">12+</text>
+    </g>
   </g>
 
-  <g transform="translate(180, 80)">
-    <g transform="translate(0, 0)">
-      <text class="stat-label">Total Commits (2026):</text>
-      <text x="250" class="stat-val" text-anchor="end">1,480+</text>
-      <rect y="10" width="250" height="6" rx="3" fill="#251545"/>
-      <rect y="10" width="210" height="6" rx="3" fill="#ff2a85"/>
-    </g>
-    <g transform="translate(0, 32)">
-      <text class="stat-label">Pull Requests:</text>
-      <text x="250" class="stat-val" text-anchor="end">142</text>
-      <rect y="10" width="250" height="6" rx="3" fill="#251545"/>
-      <rect y="10" width="185" height="6" rx="3" fill="#9b51e0"/>
-    </g>
-    <g transform="translate(0, 64)">
-      <text class="stat-label">Issues Closed:</text>
-      <text x="250" class="stat-val" text-anchor="end">88</text>
-      <rect y="10" width="250" height="6" rx="3" fill="#251545"/>
-      <rect y="10" width="150" height="6" rx="3" fill="#00f2fe"/>
-    </g>
-    <g transform="translate(0, 96)">
-      <text class="stat-label">Total Stars Earned:</text>
-      <text x="250" class="stat-val" text-anchor="end">320+</text>
-      <rect y="10" width="250" height="6" rx="3" fill="#251545"/>
-      <rect y="10" width="230" height="6" rx="3" fill="#38ef7d"/>
-    </g>
+  <!-- Right Rank Circle -->
+  <g transform="translate(440, 135)">
+    <!-- Outer Glowing Ring -->
+    <circle cx="0" cy="0" r="54" fill="none" stroke="rgba(255,102,204,0.2)" stroke-width="8"/>
+    <circle cx="0" cy="0" r="54" fill="none" stroke="url(#rank-ring)" stroke-width="7" stroke-dasharray="310" stroke-dashoffset="35" filter="url(#glow-ring)"/>
+    
+    <text x="0" y="14" class="rank-letter">A+</text>
+    <text x="0" y="74" class="rank-sub">RANK</text>
   </g>
 </svg>

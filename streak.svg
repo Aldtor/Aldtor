@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 180" width="100%" height="auto">
+  <defs>
+    <linearGradient id="card-bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14092b" />
+      <stop offset="100%" stop-color="#0b0417" />
+    </linearGradient>
+
+    <linearGradient id="fire-ring" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff66cc" />
+      <stop offset="100%" stop-color="#ff007f" />
+    </linearGradient>
+
+    <filter id="fire-glow">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .card-border { fill: url(#card-bg3); stroke: rgba(255, 102, 204, 0.4); stroke-width: 1.5; rx: 18; }
+    .big-num { font-family: 'Fira Code', monospace; font-size: 38px; font-weight: 900; fill: #ff66cc; text-anchor: middle; }
+    .label-title { font-family: 'Segoe UI', sans-serif; font-size: 14px; font-weight: 700; fill: #ffffff; text-anchor: middle; letter-spacing: 1px; }
+    .sub-date { font-family: 'Segoe UI', sans-serif; font-size: 12px; fill: #a090c0; text-anchor: middle; }
+    .divider-line { stroke: rgba(255, 102, 204, 0.25); stroke-width: 1.5; }
+  </style>
+
+  <rect width="960" height="180" class="card-border" />
+
+  <!-- Vertical Dividers -->
+  <line x1="320" y1="25" x2="320" y2="155" class="divider-line" />
+  <line x1="640" y1="25" x2="640" y2="155" class="divider-line" />
+
+  <!-- COLUMN 1: Total Contributions -->
+  <g transform="translate(160, 60)">
+    <text x="0" y="0" class="big-num">1,123</text>
+    <text x="0" y="32" class="label-title">Total Contributions</text>
+    <text x="0" y="52" class="sub-date">Aug 2022 - Present</text>
+  </g>
+
+  <!-- COLUMN 2: Current Streak (Center Fire Ring) -->
+  <g transform="translate(480, 50)">
+    <!-- Fire Ring Circle -->
+    <circle cx="0" cy="-5" r="32" fill="none" stroke="url(#fire-ring)" stroke-width="4" filter="url(#fire-glow)"/>
+    <text x="0" y="-14" font-size="16" text-anchor="middle">🔥</text>
+    <text x="0" y="8" font-family="'Fira Code', monospace" font-size="20" font-weight="900" fill="#ffffff" text-anchor="middle">12</text>
+    
+    <text x="0" y="52" class="label-title">Current Streak</text>
+    <text x="0" y="72" class="sub-date">Jul 18 - Active</text>
+  </g>
+
+  <!-- COLUMN 3: Longest Streak -->
+  <g transform="translate(800, 60)">
+    <text x="0" y="0" class="big-num">28</text>
+    <text x="0" y="32" class="label-title">Longest Streak</text>
+    <text x="0" y="52" class="sub-date">Jul 1 - Jul 28</text>
+  </g>
+</svg>

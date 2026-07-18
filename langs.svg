@@ -1,50 +1,64 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 220" width="100%" height="auto">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" width="100%" height="auto">
   <defs>
-    <linearGradient id="card-bg-lang" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#140b29"/>
-      <stop offset="100%" stop-color="#0a0518"/>
+    <linearGradient id="card-bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14092b" />
+      <stop offset="100%" stop-color="#0b0417" />
     </linearGradient>
   </defs>
 
   <style>
-    .card-title { font-family: 'Segoe UI', sans-serif; font-size: 18px; font-weight: 800; fill: #00f2fe; letter-spacing: 1px; }
-    .lang-name { font-family: 'Segoe UI', sans-serif; font-size: 13px; font-weight: 700; fill: #ffffff; }
-    .lang-pct { font-family: 'Fira Code', monospace; font-size: 13px; fill: #a090c0; }
+    .card-border { fill: url(#card-bg2); stroke: #9b51e0; stroke-width: 1.5; rx: 18; }
+    .card-title { font-family: 'Segoe UI', sans-serif; font-size: 17px; font-weight: 800; fill: #ffffff; }
+    .lang-name { font-family: 'Fira Code', monospace; font-size: 13px; font-weight: 700; fill: #ffffff; }
+    .lang-pct { font-family: 'Fira Code', monospace; font-size: 13px; font-weight: 700; fill: #ff66cc; text-anchor: end; }
   </style>
 
-  <rect width="480" height="220" rx="16" fill="url(#card-bg-lang)" stroke="rgba(0,242,254,0.3)" stroke-width="1.5"/>
+  <rect width="400" height="250" class="card-border" />
 
-  <text x="30" y="40" class="card-title">💻 TOP LANGUAGES &amp; STACK</text>
-  <line x1="30" y1="52" x2="450" y2="52" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <!-- Title -->
+  <text x="25" y="38" class="card-title">📊 Top Languages</text>
 
-  <g transform="translate(30, 75)">
+  <!-- Multi-Color Progress Bar Stack -->
+  <g transform="translate(25, 55)">
+    <rect width="350" height="12" rx="6" fill="rgba(255,255,255,0.1)"/>
+    <!-- Python 42% -->
+    <rect x="0" y="0" width="147" height="12" rx="6" fill="#ff66cc"/>
+    <!-- TypeScript 28% -->
+    <rect x="147" y="0" width="98" height="12" fill="#00f2fe"/>
+    <!-- C++ / IoT 18% -->
+    <rect x="245" y="0" width="63" height="12" fill="#b55fe6"/>
+    <!-- JavaScript 12% -->
+    <rect x="308" y="0" width="42" height="12" rx="6" fill="#00ffcc"/>
+  </g>
+
+  <!-- Language Legend Rows -->
+  <g transform="translate(25, 95)">
+    <!-- Python -->
     <g transform="translate(0, 0)">
-      <circle cx="6" cy="-4" r="5" fill="#f7df1e"/>
-      <text x="20" y="0" class="lang-name">JavaScript</text>
-      <text x="420" y="0" class="lang-pct" text-anchor="end">42%</text>
-      <rect y="8" width="420" height="7" rx="3.5" fill="#251545"/>
-      <rect y="8" width="176" height="7" rx="3.5" fill="#f7df1e"/>
+      <circle cx="6" cy="6" r="5" fill="#ff66cc"/>
+      <text x="22" y="10" class="lang-name">Python</text>
+      <text x="350" y="10" class="lang-pct">42.0%</text>
     </g>
-    <g transform="translate(0, 30)">
-      <circle cx="6" cy="-4" r="5" fill="#3178c6"/>
-      <text x="20" y="0" class="lang-name">TypeScript</text>
-      <text x="420" y="0" class="lang-pct" text-anchor="end">28%</text>
-      <rect y="8" width="420" height="7" rx="3.5" fill="#251545"/>
-      <rect y="8" width="117" height="7" rx="3.5" fill="#3178c6"/>
+
+    <!-- TypeScript -->
+    <g transform="translate(0, 32)">
+      <circle cx="6" cy="6" r="5" fill="#00f2fe"/>
+      <text x="22" y="10" class="lang-name">TypeScript</text>
+      <text x="350" y="10" class="lang-pct">28.0%</text>
     </g>
-    <g transform="translate(0, 60)">
-      <circle cx="6" cy="-4" r="5" fill="#61dafb"/>
-      <text x="20" y="0" class="lang-name">React &amp; HTML/CSS</text>
-      <text x="420" y="0" class="lang-pct" text-anchor="end">18%</text>
-      <rect y="8" width="420" height="7" rx="3.5" fill="#251545"/>
-      <rect y="8" width="75" height="7" rx="3.5" fill="#61dafb"/>
+
+    <!-- C++ / Arduino -->
+    <g transform="translate(0, 64)">
+      <circle cx="6" cy="6" r="5" fill="#b55fe6"/>
+      <text x="22" y="10" class="lang-name">C++ / IoT</text>
+      <text x="350" y="10" class="lang-pct">18.0%</text>
     </g>
-    <g transform="translate(0, 90)">
-      <circle cx="6" cy="-4" r="5" fill="#3776ab"/>
-      <text x="20" y="0" class="lang-name">Python</text>
-      <text x="420" y="0" class="lang-pct" text-anchor="end">12%</text>
-      <rect y="8" width="420" height="7" rx="3.5" fill="#251545"/>
-      <rect y="8" width="52" height="7" rx="3.5" fill="#3776ab"/>
+
+    <!-- JavaScript -->
+    <g transform="translate(0, 96)">
+      <circle cx="6" cy="6" r="5" fill="#00ffcc"/>
+      <text x="22" y="10" class="lang-name">JavaScript</text>
+      <text x="350" y="10" class="lang-pct">12.0%</text>
     </g>
   </g>
 </svg>
