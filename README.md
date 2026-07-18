@@ -1,7 +1,7 @@
 # 👋 Hi there, I'm Aldtor!
 
 <p align="center">
-  <img src="./banner.svg?v=5" alt="Aldtor Profile Banner" width="100%">
+  <img src="./banner.svg?v=6" alt="Aldtor Profile Banner" width="100%">
 </p>
 
 <br/>
@@ -10,7 +10,7 @@
   <tr>
     <td width="35%" align="center" valign="top">
       <!-- Swinging Lanyard Badge -->
-      <img src="./lanyard.svg?v=5" alt="Aldtor Lanyard Badge" width="100%" />
+      <img src="./lanyard.svg?v=6" alt="Aldtor Lanyard Badge" width="100%" />
     </td>
     <td width="65%" valign="top">
       <h2>🌸 My Anime &amp; Web Creations</h2>
@@ -60,15 +60,12 @@
 
 <br/>
 
-## 📊 GitHub Stats &amp; Graphs
+## 📊 GitHub Stats &amp; Performance
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Aldtor&show_icons=true&theme=tokyonight&title_color=ff66cc&icon_color=00f2fe&bg_color=120824&border_color=9b51e0&border_radius=12" width="48%" alt="Aldtor GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aldtor&layout=compact&theme=tokyonight&title_color=ff66cc&bg_color=120824&border_color=9b51e0&border_radius=12" width="48%" alt="Top Languages" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Aldtor&theme=tokyonight&background=120824&stroke=ff66cc&ring=ff66cc&fire=ff66cc&currStreakLabel=ff66cc&border=9b51e0&border_radius=12" width="97%" alt="GitHub Streak" />
+  <img src="./stats.svg?v=6" width="31%" alt="Aldtor GitHub Stats" />
+  <img src="./langs.svg?v=6" width="31%" alt="Top Languages" />
+  <img src="./trophies.svg?v=6" width="31%" alt="Achievements &amp; Trophies" />
 </p>
 
 <br/>
@@ -96,9 +93,9 @@
 ## 🚩 Let's Connect
 
 <p align="center">
-  <a href="mailto:aldtor@vercel.app"><img src="https://img.shields.io/badge/M_EMAIL-ff66cc?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a> &#160;
+  <a href="mailto:aldtor.in@gmail.com"><img src="https://img.shields.io/badge/M_EMAIL-ff66cc?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a> &#160;
   <a href="https://github.com/Aldtor"><img src="https://img.shields.io/badge/GH_GITHUB-9b51e0?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a> &#160;
-  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LINKEDIN-00f2fe?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://in.linkedin.com/in/aldtor"><img src="https://img.shields.io/badge/LINKEDIN-00f2fe?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 </p>
 
 <br/>
