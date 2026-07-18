@@ -95,7 +95,7 @@ banner_svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="ht
       <text x="0" y="0" class="term-prompt">aldtor@developer:~$ cat README.md<tspan class="blink-cursor">_</tspan></text>
 
       <text x="0" y="45" class="hi-title">Hi, I'm 👋</text>
-      <text x="0" y="106" class="name-main">{display_name} ✨</text>
+      <text x="0" y="106" class="name-main">{display_name} ‼️</text>
       <text x="0" y="144" class="role-sub">⚡ Full Stack &amp; Mobile Systems Developer</text>
 
       <!-- Tagline Box -->
