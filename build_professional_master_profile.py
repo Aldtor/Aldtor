@@ -95,12 +95,12 @@ banner_svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="ht
       <text x="0" y="0" class="term-prompt">aldtor@developer:~$ cat README.md<tspan class="blink-cursor">_</tspan></text>
 
       <text x="0" y="45" class="hi-title">Hi, I'm 👋</text>
-      <text x="0" y="106" class="name-main">{display_name} 💕</text>
+      <text x="0" y="106" class="name-main">{display_name} ✨</text>
       <text x="0" y="144" class="role-sub">⚡ Full Stack &amp; Mobile Systems Developer</text>
 
       <!-- Tagline Box -->
       <g transform="translate(0, 168)">
-        <rect width="360" height="42" rx="10" fill="rgba(255, 102, 204, 0.08)" stroke="#ff66cc" stroke-width="1.5"/>
+        <rect width="360" height="42" rx="10" fill="rgba(0, 242, 254, 0.08)" stroke="#00f2fe" stroke-width="1.5"/>
         <text x="18" y="26" class="quote-box-text">"The rise of Kalki. ✨"</text>
       </g>
 
@@ -314,7 +314,7 @@ readme_md_content = f'''# 👋 Hi there, I'm {username} ({display_name})!
 
 <br/>
 
-## 📈 Contribution Graph 💕
+## 📈 Contribution Graph ⚡
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Aldtor&theme=tokyonight&bg_color=0b0518&color=ff66cc&line=ff66cc&point=00f2fe&area=true&hide_border=false" width="100%" alt="Contribution Graph" />
@@ -352,7 +352,7 @@ readme_md_content = f'''# 👋 Hi there, I'm {username} ({display_name})!
 <hr/>
 
 <p align="center">
-  <sub><i>★ Always learning, always building. 💕</i></sub>
+  <sub><i>★ Always learning, always building. ✨</i></sub>
 </p>
 '''
 

@@ -96,7 +96,7 @@
 
 <br/>
 
-## 📈 Contribution Graph 💕
+## 📈 Contribution Graph ⚡
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Aldtor&theme=tokyonight&bg_color=0b0518&color=ff66cc&line=ff66cc&point=00f2fe&area=true&hide_border=false" width="100%" alt="Contribution Graph" />
@@ -134,5 +134,5 @@
 <hr/>
 
 <p align="center">
-  <sub><i>★ Always learning, always building. 💕</i></sub>
+  <sub><i>★ Always learning, always building. ✨</i></sub>
 </p>
