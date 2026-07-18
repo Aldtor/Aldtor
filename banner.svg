@@ -1,13 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 740" width="100%" height="auto">
   <defs>
-    <!-- Dark Background Gradient -->
     <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0b0518" />
       <stop offset="50%" stop-color="#14092b" />
       <stop offset="100%" stop-color="#06020c" />
     </linearGradient>
 
-    <!-- Animated Glowing Script Name Gradient -->
     <linearGradient id="name-grad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#ff66cc">
         <animate attributeName="stop-color" values="#ff66cc; #b55fe6; #00f2fe; #ff66cc" dur="6s" repeatCount="indefinite"/>
@@ -20,7 +18,6 @@
       </stop>
     </linearGradient>
 
-    <!-- Scanner Beam Gradient -->
     <linearGradient id="scan-line-grad" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#ff00a0" stop-opacity="0"/>
       <stop offset="50%" stop-color="#00f2fe" stop-opacity="0.5"/>
@@ -59,15 +56,12 @@
   </style>
 
   <g clip-path="url(#banner-clip)">
-    <!-- Base Background -->
     <rect width="1280" height="740" fill="url(#bg-grad)" stroke="#9b51e0" stroke-width="2" rx="22"/>
 
-    <!-- Ambient Glowing Orbs -->
     <circle cx="180" cy="180" r="220" fill="#9b51e0" opacity="0.14" filter="url(#glow-filter)"/>
     <circle cx="1100" cy="550" r="260" fill="#ff2a85" opacity="0.12" filter="url(#glow-filter)"/>
     <circle cx="640" cy="370" r="200" fill="#00f2fe" opacity="0.08" filter="url(#glow-filter)"/>
 
-    <!-- Floating Sparkles & Hearts -->
     <text x="680" y="310" font-size="20" fill="#ff66cc" opacity="0.8">✦</text>
     <text x="1200" y="190" font-size="18" fill="#00f2fe" opacity="0.7">✨</text>
     <text x="740" y="680" font-size="16" fill="#ff4da6" opacity="0.8">💕</text>
@@ -86,7 +80,6 @@
         <text x="18" y="26" class="quote-box-text">"The rise of Kalki. ✨"</text>
       </g>
 
-      <!-- Horizontal Divider -->
       <line x1="0" y1="225" x2="450" y2="225" stroke="rgba(255,102,204,0.25)" stroke-width="1.5"/>
 
       <!-- Tech Stack -->
