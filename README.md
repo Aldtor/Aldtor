@@ -1,58 +1,58 @@
-# 👋 Hi there, I'm Aldtor!
+# 👋 Hi there, I'm Aldtor (DragoSatya~)!
 
 <p align="center">
-  <img src="./banner.svg?v=10" alt="Aldtor Profile Banner" width="100%">
+  <img src="./banner.svg?v=11" alt="Aldtor Profile Banner" width="100%">
 </p>
 
 <br/>
 
 <table border="0">
   <tr>
-    <td width="36%" align="center" valign="top">
+    <td width="35%" align="center" valign="top">
       <!-- Swinging Lanyard Badge -->
-      <img src="./lanyard.svg?v=10" alt="Aldtor Lanyard Badge" width="100%" />
+      <img src="./lanyard.svg?v=11" alt="Aldtor Lanyard Badge" width="100%" />
     </td>
-    <td width="64%" valign="top">
-      <h2>🌸 My Anime &amp; Web Creations</h2>
+    <td width="65%" valign="top">
+      <h2>🚀 Featured Repositories &amp; Projects</h2>
       <table width="100%">
         <thead>
           <tr>
             <th align="left">Project</th>
             <th align="center">💻 Tech</th>
-            <th align="center">★ Stars</th>
+            <th align="center">🔗 Link</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td><b>⚡ Naruto — Sage Mode</b></td>
-            <td align="center"><code>HTML</code> <code>CSS</code> <code>JS</code></td>
-            <td align="center">25</td>
+            <td><b>💳 OFFLINE-PAY</b><br/><sub>Offline payment &amp; mesh transaction gateway</sub></td>
+            <td align="center"><code>Python</code> <code>Android</code></td>
+            <td align="center"><a href="https://github.com/Aldtor/OFFLINE-PAY">View Code</a></td>
           </tr>
           <tr>
-            <td><b>⚔️ Zoro — King of Hell</b></td>
-            <td align="center"><code>HTML</code> <code>CSS</code> <code>JS</code></td>
-            <td align="center">14</td>
+            <td><b>🔍 Sherlock Android</b><br/><sub>Android security &amp; forensic analysis toolkit</sub></td>
+            <td align="center"><code>Kotlin</code> <code>Android</code></td>
+            <td align="center"><a href="https://github.com/Aldtor/sherlock-android">View Code</a></td>
           </tr>
           <tr>
-            <td><b>🔥 Demon Slayer — Web App</b></td>
-            <td align="center"><code>HTML</code> <code>CSS</code> <code>JS</code></td>
-            <td align="center">12</td>
+            <td><b>📡 ESP8266 Toolkit</b><br/><sub>IoT &amp; microcontroller firmware suite</sub></td>
+            <td align="center"><code>C++</code> <code>Arduino</code></td>
+            <td align="center"><a href="https://github.com/Aldtor/esp8266-toolkit">View Code</a></td>
           </tr>
           <tr>
-            <td><b>👁️ JJK — Sukuna Domain</b></td>
-            <td align="center"><code>HTML</code> <code>CSS</code> <code>JS</code></td>
-            <td align="center">10</td>
+            <td><b>🌐 Aldtor Portfolio</b><br/><sub>Interactive developer web application</sub></td>
+            <td align="center"><code>React</code> <code>TypeScript</code></td>
+            <td align="center"><a href="https://aldtor.vercel.app">Visit Live</a></td>
           </tr>
           <tr>
-            <td><b>🌊 One Piece 3D Experience</b></td>
-            <td align="center"><code>TypeScript</code> <code>Three.js</code></td>
-            <td align="center">8</td>
+            <td><b>🎮 Calc Rush Showcase</b><br/><sub>Arcade math puzzle web game</sub></td>
+            <td align="center"><code>JavaScript</code> <code>HTML5</code></td>
+            <td align="center"><a href="https://github.com/Aldtor/calc-rush-showcase">View Code</a></td>
           </tr>
         </tbody>
       </table>
       <br/>
       <p align="center">
-        <i>"I don't watch anime, I code anime. 💕"</i>
+        <i>"The rise of Kalki. • Ship > Perfect ✨"</i>
       </p>
     </td>
   </tr>
@@ -63,9 +63,9 @@
 ## 📊 GitHub Stats &amp; Performance
 
 <p align="center">
-  <img src="./stats.svg?v=10" width="31%" alt="Aldtor GitHub Stats" />
-  <img src="./langs.svg?v=10" width="31%" alt="Top Languages" />
-  <img src="./trophies.svg?v=10" width="31%" alt="Achievements &amp; Trophies" />
+  <img src="./stats.svg?v=11" width="31%" alt="Aldtor GitHub Stats" />
+  <img src="./langs.svg?v=11" width="31%" alt="Top Languages" />
+  <img src="./trophies.svg?v=11" width="31%" alt="Achievements &amp; Trophies" />
 </p>
 
 <br/>
