@@ -2,9 +2,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Aldtor/Aldtor/main/banner.svg?v=2">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Aldtor/Aldtor/main/banner-light.svg?v=2">
-    <img alt="Aldtor Profile Banner" src="https://raw.githubusercontent.com/Aldtor/Aldtor/main/banner.svg?v=2" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Aldtor/Aldtor/main/banner.svg?v=3">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Aldtor/Aldtor/main/banner-light.svg?v=3">
+    <img alt="Aldtor Profile Banner" src="https://raw.githubusercontent.com/Aldtor/Aldtor/main/banner.svg?v=3" width="100%">
   </picture>
 </p>
 
@@ -13,7 +13,7 @@
 <table border="0">
   <tr>
     <td width="38%" align="center" valign="top">
-      <img src="https://raw.githubusercontent.com/Aldtor/Aldtor/main/lanyard.svg?v=2" alt="Aldtor Lanyard Badge" width="100%" />
+      <img src="https://raw.githubusercontent.com/Aldtor/Aldtor/main/lanyard.svg?v=3" alt="Aldtor Lanyard Badge" width="100%" />
     </td>
     <td width="62%" valign="top">
       <h2>✨ About Me</h2>
@@ -43,9 +43,9 @@
 ## 📊 Performance & Statistics
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Aldtor/Aldtor/main/stats.svg?v=2" width="31%" alt="Stats Card" />
-  <img src="https://raw.githubusercontent.com/Aldtor/Aldtor/main/langs.svg?v=2" width="31%" alt="Languages Card" />
-  <img src="https://raw.githubusercontent.com/Aldtor/Aldtor/main/trophies.svg?v=2" width="31%" alt="Trophies Card" />
+  <img src="https://raw.githubusercontent.com/Aldtor/Aldtor/main/stats.svg?v=3" width="31%" alt="Stats Card" />
+  <img src="https://raw.githubusercontent.com/Aldtor/Aldtor/main/langs.svg?v=3" width="31%" alt="Languages Card" />
+  <img src="https://raw.githubusercontent.com/Aldtor/Aldtor/main/trophies.svg?v=3" width="31%" alt="Trophies Card" />
 </p>
 
 <br/>
