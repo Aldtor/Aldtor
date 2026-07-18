@@ -14,7 +14,7 @@ username = "Aldtor"
 display_name = "ALDTOR"
 raw_base = "https://raw.githubusercontent.com/Aldtor/Aldtor/main"
 
-# 1. banner.svg (Dark Mode)
+# 1. banner.svg (Dark Mode - Strict Valid XML, replacing &nbsp; with &#160;)
 banner_svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 740" width="100%" height="auto">
   <defs>
     <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -159,10 +159,10 @@ banner_svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="ht
 
       <g transform="translate(25, 65)">
         <text y="0" class="code-text"><tspan fill="#ff79c6">const</tspan> <tspan fill="#50fa7b">developer</tspan> = &#123;</text>
-        <text y="28" class="code-text">&nbsp;&nbsp;name: <tspan fill="#f1fa8c">"{username}"</tspan>,</text>
-        <text y="56" class="code-text">&nbsp;&nbsp;passion: <tspan fill="#f1fa8c">"Building slick interactive web apps"</tspan>,</text>
-        <text y="84" class="code-text">&nbsp;&nbsp;currentGoal: <tspan fill="#bd93f9">"Mastering SVG animations &amp; AI"</tspan>,</text>
-        <text y="112" class="code-text">&nbsp;&nbsp;buildDreams: () =&gt; &#123; <tspan fill="#ff79c6">return</tspan> <tspan fill="#f1fa8c">"Code. Learn. Build. Repeat."</tspan>; &#125;</text>
+        <text y="28" class="code-text">&#160;&#160;name: <tspan fill="#f1fa8c">"{username}"</tspan>,</text>
+        <text y="56" class="code-text">&#160;&#160;passion: <tspan fill="#f1fa8c">"Building slick interactive web apps"</tspan>,</text>
+        <text y="84" class="code-text">&#160;&#160;currentGoal: <tspan fill="#bd93f9">"Mastering SVG animations &amp; AI"</tspan>,</text>
+        <text y="112" class="code-text">&#160;&#160;buildDreams: () =&gt; &#123; <tspan fill="#ff79c6">return</tspan> <tspan fill="#f1fa8c">"Code. Learn. Build. Repeat."</tspan>; &#125;</text>
         <text y="140" class="code-text">&#125;;</text>
         <text y="172" class="code-text"><tspan fill="#ff79c6">export default</tspan> <tspan fill="#50fa7b">developer</tspan>;</text>
       </g>
@@ -197,7 +197,7 @@ banner_svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="ht
 with open(os.path.join(out_dir, "banner.svg"), "w", encoding="utf-8") as f:
     f.write(banner_svg_content)
 
-print("Updated banner.svg with xlink:href")
+print("Created valid XML banner.svg")
 
 # 2. banner-light.svg (Light Mode)
 banner_light_svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 740" width="100%" height="auto">
@@ -337,10 +337,10 @@ banner_light_svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xli
 
       <g transform="translate(25, 65)">
         <text y="0" class="code-text-light"><tspan fill="#d63384">const</tspan> <tspan fill="#0d6efd">developer</tspan> = &#123;</text>
-        <text y="28" class="code-text-light">&nbsp;&nbsp;name: <tspan fill="#198754">"{username}"</tspan>,</text>
-        <text y="56" class="code-text-light">&nbsp;&nbsp;passion: <tspan fill="#198754">"Building slick interactive web apps"</tspan>,</text>
-        <text y="84" class="code-text-light">&nbsp;&nbsp;currentGoal: <tspan fill="#6f42c1">"Mastering SVG animations &amp; AI"</tspan>,</text>
-        <text y="112" class="code-text-light">&nbsp;&nbsp;buildDreams: () =&gt; &#123; <tspan fill="#d63384">return</tspan> <tspan fill="#198754">"Code. Learn. Build. Repeat."</tspan>; &#125;</text>
+        <text y="28" class="code-text-light">&#160;&#160;name: <tspan fill="#198754">"{username}"</tspan>,</text>
+        <text y="56" class="code-text-light">&#160;&#160;passion: <tspan fill="#198754">"Building slick interactive web apps"</tspan>,</text>
+        <text y="84" class="code-text-light">&#160;&#160;currentGoal: <tspan fill="#6f42c1">"Mastering SVG animations &amp; AI"</tspan>,</text>
+        <text y="112" class="code-text-light">&#160;&#160;buildDreams: () =&gt; &#123; <tspan fill="#d63384">return</tspan> <tspan fill="#198754">"Code. Learn. Build. Repeat."</tspan>; &#125;</text>
         <text y="140" class="code-text-light">&#125;;</text>
         <text y="172" class="code-text-light"><tspan fill="#d63384">export default</tspan> <tspan fill="#0d6efd">developer</tspan>;</text>
       </g>
@@ -374,188 +374,4 @@ banner_light_svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xli
 with open(os.path.join(out_dir, "banner-light.svg"), "w", encoding="utf-8") as f:
     f.write(banner_light_svg_content)
 
-print("Updated banner-light.svg with xlink:href")
-
-# 3. lanyard.svg (Swinging ID Badge)
-lanyard_svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 450 680" width="100%" height="auto">
-  <defs>
-    <linearGradient id="strap-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ff2a85" />
-      <stop offset="50%" stop-color="#9b51e0" />
-      <stop offset="100%" stop-color="#ff2a85" />
-    </linearGradient>
-
-    <linearGradient id="glass-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1f1137" stop-opacity="0.95" />
-      <stop offset="100%" stop-color="#0a0518" stop-opacity="0.98" />
-    </linearGradient>
-
-    <linearGradient id="holo-shine" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
-      <stop offset="45%" stop-color="#00f2fe" stop-opacity="0.0"/>
-      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.35"/>
-      <stop offset="55%" stop-color="#ff00a0" stop-opacity="0.0"/>
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
-    </linearGradient>
-
-    <filter id="lanyard-shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#000000" flood-opacity="0.5"/>
-    </filter>
-  </defs>
-
-  <style>
-    .strap-text {{ font-family: 'Segoe UI', sans-serif; font-size: 11px; font-weight: 800; fill: #ffffff; letter-spacing: 2px; }}
-    .badge-name {{ font-family: 'Segoe UI', sans-serif; font-size: 26px; font-weight: 900; fill: #ffffff; letter-spacing: 2px; }}
-    .badge-handle {{ font-family: 'Fira Code', monospace; font-size: 14px; fill: #ff66cc; font-weight: 600; }}
-    .badge-role {{ font-family: 'Segoe UI', sans-serif; font-size: 13px; fill: #00f2fe; font-weight: 700; letter-spacing: 1px; }}
-  </style>
-
-  <circle cx="225" cy="0" r="14" fill="#333333"/>
-  <circle cx="225" cy="0" r="7" fill="#111111"/>
-
-  <g filter="url(#lanyard-shadow)">
-    <animateTransform attributeName="transform" type="rotate" values="-4 225 0; 4 225 0; -4 225 0" dur="4.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
-
-    <path d="M 218 0 L 205 150 L 215 150 L 223 0 Z" fill="url(#strap-grad)"/>
-    <path d="M 232 0 L 245 150 L 235 150 L 227 0 Z" fill="url(#strap-grad)"/>
-
-    <text x="210" y="80" class="strap-text" transform="rotate(85 210 80)">DEVELOPER</text>
-    <text x="240" y="80" class="strap-text" transform="rotate(-85 240 80)">{display_name}</text>
-
-    <g transform="translate(225, 150)">
-      <circle cx="0" cy="0" r="15" fill="none" stroke="#cccccc" stroke-width="4"/>
-      <circle cx="0" cy="0" r="15" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.8"/>
-
-      <rect x="-10" y="10" width="20" height="24" rx="4" fill="#999999"/>
-      <rect x="-8" y="12" width="16" height="20" rx="3" fill="none" stroke="#ffffff" stroke-width="1.5"/>
-    </g>
-
-    <g transform="translate(75, 184)">
-      <rect width="300" height="460" rx="20" fill="url(#glass-grad)" stroke="rgba(255, 42, 133, 0.6)" stroke-width="2"/>
-      <rect x="125" y="12" width="50" height="12" rx="6" fill="#0c061a" stroke="#cccccc" stroke-width="2"/>
-
-      <g transform="translate(150, 130)">
-        <circle cx="0" cy="0" r="64" fill="none" stroke="url(#strap-grad)" stroke-width="4"/>
-        <circle cx="0" cy="0" r="60" fill="#0d071b"/>
-
-        <clipPath id="avatar-clip">
-          <circle cx="0" cy="0" r="58"/>
-        </clipPath>
-        <image href="{face_b64}" xlink:href="{face_b64}" x="-58" y="-58" width="116" height="116" clip-path="url(#avatar-clip)" preserveAspectRatio="xMidYMid slice"/>
-      </g>
-
-      <text x="150" y="232" class="badge-name" text-anchor="middle">{display_name}</text>
-      <text x="150" y="258" class="badge-handle" text-anchor="middle">@{username}</text>
-      <text x="150" y="284" class="badge-role" text-anchor="middle">FULL STACK DEVELOPER</text>
-
-      <line x1="40" y1="308" x2="260" y2="308" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
-
-      <g transform="translate(45, 332)">
-        <text font-family="'Segoe UI', sans-serif" font-size="11" fill="#a090c0">STATUS</text>
-        <text y="18" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#00ffcc">● ACTIVE / BUILDING</text>
-
-        <text x="130" font-family="'Segoe UI', sans-serif" font-size="11" fill="#a090c0">LOCATION</text>
-        <text x="130" y="18" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#ffffff">GLOBAL 🌍</text>
-      </g>
-
-      <g transform="translate(50, 395)">
-        <path d="M0 0 V30 M4 0 V30 M7 0 V30 M12 0 V30 M15 0 V30 M22 0 V30 M28 0 V30 M31 0 V30 M38 0 V30 M42 0 V30 M48 0 V30 M55 0 V30 M60 0 V30 M65 0 V30 M72 0 V30 M78 0 V30 M84 0 V30 M90 0 V30 M98 0 V30 M104 0 V30 M110 0 V30 M118 0 V30 M124 0 V30 M130 0 V30 M138 0 V30 M144 0 V30 M152 0 V30 M160 0 V30 M168 0 V30 M175 0 V30 M182 0 V30 M190 0 V30 M196 0 V30 M200 0 V30" stroke="#ffffff" stroke-width="2.5"/>
-        <text x="100" y="44" font-family="'Fira Code', monospace" font-size="10" fill="#a090c0" text-anchor="middle">ID: ALDTOR-DEV-2026</text>
-      </g>
-
-      <rect width="300" height="460" rx="20" fill="url(#holo-shine)" pointer-events="none">
-        <animateTransform attributeName="transform" type="translate" from="-300, -300" to="300, 300" dur="4s" repeatCount="indefinite"/>
-      </rect>
-    </g>
-  </g>
-</svg>'''
-
-with open(os.path.join(out_dir, "lanyard.svg"), "w", encoding="utf-8") as f:
-    f.write(lanyard_svg_content)
-
-print("Updated lanyard.svg with xlink:href")
-
-# 7. README.md (Using direct raw GitHub URLs for picture tags to ensure GitHub Camo proxy resolves them perfectly)
-readme_md_content = f'''# 👋 Hi there, I'm {username}!
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="{raw_base}/banner.svg?v=2">
-    <source media="(prefers-color-scheme: light)" srcset="{raw_base}/banner-light.svg?v=2">
-    <img alt="{username} Profile Banner" src="{raw_base}/banner.svg?v=2" width="100%">
-  </picture>
-</p>
-
-<br/>
-
-<table border="0">
-  <tr>
-    <td width="38%" align="center" valign="top">
-      <img src="{raw_base}/lanyard.svg?v=2" alt="{username} Lanyard Badge" width="100%" />
-    </td>
-    <td width="62%" valign="top">
-      <h2>✨ About Me</h2>
-      <p>
-        I'm a passionate <b>Full Stack Developer</b> crafting sleek, high-performance web applications and interactive digital experiences.
-      </p>
-      <ul>
-        <li>🔭 <b>Building:</b> Next-gen web apps with React, TypeScript &amp; SVG animations</li>
-        <li>💻 <b>Core Tech:</b> JavaScript, TypeScript, React, Node.js, Python, SQL, Git</li>
-        <li>🌱 <b>Learning:</b> Advanced AI prompts, WebGL &amp; SVG physics modeling</li>
-        <li>⚡ <b>Fun Fact:</b> Powered by coffee, clean code &amp; continuous learning!</li>
-      </ul>
-      <br/>
-      <h3>📫 Connect With Me</h3>
-      <p>
-        <a href="https://github.com/Aldtor"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-        <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-      </p>
-      <br/>
-      <img src="https://komarev.com/ghpvc/?username=Aldtor&color=ff2a85&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
-    </td>
-  </tr>
-</table>
-
-<br/>
-
-## 📊 Performance & Statistics
-
-<p align="center">
-  <img src="{raw_base}/stats.svg?v=2" width="31%" alt="Stats Card" />
-  <img src="{raw_base}/langs.svg?v=2" width="31%" alt="Languages Card" />
-  <img src="{raw_base}/trophies.svg?v=2" width="31%" alt="Trophies Card" />
-</p>
-
-<br/>
-
-## 🚀 Featured Projects
-
-| Project | Description | Tech Stack | Link |
-| :--- | :--- | :--- | :---: |
-| **⚡ DreamCraft UI** | Interactive SVG & CSS animation components library | React, SVG, Tailwind | [View Code](https://github.com/Aldtor) |
-| **🌐 DevFlow Hub** | Developer workflow & task management web application | TypeScript, Node.js | [View Code](https://github.com/Aldtor) |
-| **🐍 Contribution Snake** | Custom colored snake animation generated via GitHub Actions | YAML, SVG, Canvas | [View Code](https://github.com/Aldtor/Aldtor) |
-
-<br/>
-
-## 🐍 Contribution Graph & Snake Game
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Aldtor/Aldtor/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Aldtor/Aldtor/output/github-contribution-grid-snake.svg">
-    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/Aldtor/Aldtor/output/github-contribution-grid-snake.svg" width="100%">
-  </picture>
-</p>
-
-<hr/>
-
-<p align="center">
-  <sub><i>Designed with ❤️ for {username} • Keep Coding, Keep Growing!</i></sub>
-</p>
-'''
-
-with open(os.path.join(out_dir, "README.md"), "w", encoding="utf-8") as f:
-    f.write(readme_md_content)
-
-print("Updated README.md with raw GitHub URLs")
+print("Created valid XML banner-light.svg")

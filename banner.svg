@@ -142,10 +142,10 @@
 
       <g transform="translate(25, 65)">
         <text y="0" class="code-text"><tspan fill="#ff79c6">const</tspan> <tspan fill="#50fa7b">developer</tspan> = &#123;</text>
-        <text y="28" class="code-text">&nbsp;&nbsp;name: <tspan fill="#f1fa8c">"Aldtor"</tspan>,</text>
-        <text y="56" class="code-text">&nbsp;&nbsp;passion: <tspan fill="#f1fa8c">"Building slick interactive web apps"</tspan>,</text>
-        <text y="84" class="code-text">&nbsp;&nbsp;currentGoal: <tspan fill="#bd93f9">"Mastering SVG animations &amp; AI"</tspan>,</text>
-        <text y="112" class="code-text">&nbsp;&nbsp;buildDreams: () =&gt; &#123; <tspan fill="#ff79c6">return</tspan> <tspan fill="#f1fa8c">"Code. Learn. Build. Repeat."</tspan>; &#125;</text>
+        <text y="28" class="code-text">&#160;&#160;name: <tspan fill="#f1fa8c">"Aldtor"</tspan>,</text>
+        <text y="56" class="code-text">&#160;&#160;passion: <tspan fill="#f1fa8c">"Building slick interactive web apps"</tspan>,</text>
+        <text y="84" class="code-text">&#160;&#160;currentGoal: <tspan fill="#bd93f9">"Mastering SVG animations &amp; AI"</tspan>,</text>
+        <text y="112" class="code-text">&#160;&#160;buildDreams: () =&gt; &#123; <tspan fill="#ff79c6">return</tspan> <tspan fill="#f1fa8c">"Code. Learn. Build. Repeat."</tspan>; &#125;</text>
         <text y="140" class="code-text">&#125;;</text>
         <text y="172" class="code-text"><tspan fill="#ff79c6">export default</tspan> <tspan fill="#50fa7b">developer</tspan>;</text>
       </g>
